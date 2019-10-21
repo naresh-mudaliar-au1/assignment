@@ -1,0 +1,119 @@
+@media screen and (max-width: 700px) {
+    .Main, .navbar {   
+      flex-direction: row;
+    }
+  }
+  
+.navbar{
+    display: flex;
+    border-style: groove;
+    margin:20px
+}
+
+.navbar div{
+  padding:5px;
+}
+
+.bg-white{
+    flex: 1;
+}
+
+.project{
+    flex:0.50;
+}
+
+.device{
+    flex:0.50;
+}
+
+.location{
+    flex:0.50
+}
+
+.Main{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.Menu div{
+    padding: 20px;
+    color:black;
+}
+
+.Menu{
+    flex:2;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: lightgrey
+}
+
+.icon{
+    padding-right :10px
+}
+
+.icon1{
+    padding-right :10px;
+    margin-left: 10px;
+}
+
+.subject{
+   flex: 70%;
+   margin-top: 10px;
+}
+
+.row{
+    display: flex;
+    margin-left:20px;
+    margin-right:20px
+}
+.row div{
+    border-style:groove;
+    border: 2px solid rgb(158, 153, 153);
+    border-radius: 10px;
+    height: 100px;
+    text-align: center;
+    padding:30px
+}
+.row div:hover {
+    background-color: rgba(13, 74, 143, 0.993);
+    color:white;
+  }
+.box1{
+    flex:1;
+    margin:10px;
+    border: 2px skyblue;
+}
+.box2{
+    flex:1;
+    margin:10px
+}
+.box3{
+    flex:1;
+    margin:10px
+}
+.box4{
+    flex:3;
+    margin:10px
+}
+.box5{
+    flex:1;
+    margin:10px
+}
+.img{
+    display: flex;
+    margin:20px;
+    background-color:grey;
+    border:2px grey;
+    border-radius: 10px;
+    width: 95%;
+    height:200px
+}
+.events{
+    display: flex;
+    margin:20px;
+    background-color:grey;
+    border:2px grey;
+    border-radius: 10px;
+    width: 50%;
+    height:200px
+}
